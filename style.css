@@ -1,0 +1,71 @@
+@font-face {
+    font-family: mont;
+    src: url(mont.ttf);
+
+}
+@font-face {
+    font-family: antony;
+    src: url(Anton-Regular.tff);
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: mont;
+}
+.container{
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+    width:auto;
+    background-color: rgb(228, 228, 228);
+    padding:20px;
+    border: 2px outset rgb(231, 231, 231);
+}
+
+#tempValue{
+    width: 50%;
+    font-size:1.2em;
+    text-align: center;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bolder;
+}
+#tempValue:focus{
+    text-align: center;
+    outline: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+label{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(216, 9, 9);
+}
+p{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+button{
+    font-size: 1.3em;
+    border: none;
+    background-color: rgb(134, 138, 138);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(180, 2%, 43%);
+
+}
+
+/* Hide spinner arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
