@@ -22,4 +22,4 @@ It allows users to convert temperature values from **Celsius (°C) to Fahrenheit
 ---
 
 ## 📷 Demo Screenshot
-![alt image](screenshot.png](https://github.com/MyCode-maker/Temperature-Conversion/blob/63350cf9522e42014e5c110acff7b8068733aa77/temp_conv.JPG)
+![alt image](https://github.com/MyCode-maker/Temperature-Conversion/blob/63350cf9522e42014e5c110acff7b8068733aa77/temp_conv.JPG)
